@@ -4,15 +4,15 @@
 <head>
     <meta charset="UTF-8">
     <title>CREAVIQ</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <header>
-        <h1>CREAVIQ TECHNOLOGIES</h1>
-    </header>
-    <iframe src="headers.html" width="260" height="40" style="border-width: 0;"></iframe>
+    
+    <iframe src="headers.html" style="border-width: 0;" scrolling="no"></iframe>
+    
     <form>
-        <label>
+        <label style="text-align: center;">
             <h2>Enquiry Form</h2>
         </label>
         <label for="name">Name</label>
@@ -24,18 +24,22 @@
         <label for="message">Message</label>
         <textarea type="message"></textarea><br><br>
         <button type="submit">Submit</button>
+        <dialog>
+            <p>submitted successfully</p>
+        </dialog>
     </form>
     <main>
-        <section>
+        <section class="contact">
             <h2>Contact Us</h2>
-            <a href="mailto:info@creaviq.com">info@creaviq.com</a><br>
-            <a href="tel:+916382038625">+91 63820 38625</a><br>
-            location: Coimbatore
+            <a href="mailto:info@creaviq.com"><img src="email.png">info@creaviq.com</a><br><br>
+            <a href="tel:+916382038625"><img src="phone.png">+91 63820 38625</a><br><br>
+            <img src="location.png"><b>Coimbatore</b>
         </section>
     </main>
     <footer>
-        <p>&copy; 2026 creaviq technologies.All rights reserved</p>
+        <p class="footer" style="width: 100%;">&copy; 2026 creaviq technologies.All rights reserved</p>
     </footer>
+    
 </body>
 
 </html>
