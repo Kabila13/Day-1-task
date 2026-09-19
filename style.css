@@ -1,0 +1,165 @@
+iframe {
+    width: 100%;
+    border: none;
+    background-color: rgb(22, 22, 79);
+    height: 80px;
+    margin: 0;
+    padding: 0;
+}
+.logo {
+    height: 50px;
+    padding: 10px;
+
+}
+img {
+    padding: 5px;
+    gap: 2px;
+
+}
+
+header {
+    background-color: rgb(22, 22, 79);
+    color:aliceblue;
+    display:flex;
+    justify-content: space-between;
+    font-size: 14px;
+    height: 200px;
+    margin: 0;
+    
+}
+nav {
+    display: flex;
+    gap: 20px;
+
+}
+nav a {
+    color: azure;
+    font-display: auto;
+    text-decoration: solid;
+}
+body {
+    background-color: rgba(141, 170, 204, 0.763);
+}
+ 
+.container {
+    display: grid;
+    gap:20px;
+
+}
+
+.card {
+    padding:20px;
+    width:500px;
+    background-color:rgb(189, 202, 223);
+    margin: auto;
+    border-radius: 2px;
+    box-shadow: 2px 2px 2px 2px rgb(148, 156, 196);
+}
+.card:hover {
+    background-color: rgb(143, 167, 175);
+    cursor: pointer;
+    stop-color: rgb(88, 101, 116);
+    
+}
+p {
+    text-align: justify;
+}
+.footer {
+    background-color: rgb(10, 10, 50);
+    padding: 20px;
+    margin-top: 30px;
+    color: aliceblue;
+    text-align: center;
+}
+
+.box {
+    display:flex;
+    width: 500px;
+    padding: 20px;
+    margin:auto;
+    text-align: justify;
+    background-color: rgb(24, 39, 57);
+    color: aliceblue;
+    box-shadow: 2px 2px 2px black;
+    
+}
+
+form {
+    width: 400px;
+    padding: 30px;
+    background-color: rgb(221, 218, 241);
+    margin: auto;
+    margin-top: 20px;
+    text-align: justify;
+    box-shadow: 2px 2px 2px rgb(171, 155, 155);
+
+}
+
+label {
+    text-decoration: solid;
+    border-color: blanchedalmond;
+    font-display: block;
+    text-align: justify;
+}
+
+input[type="text"],input[type="tel"],input[type="email"]{
+    box-sizing: border-box;
+    border-width: 2px;
+    width: 300px;
+    padding: 8px;
+    margin:3px;
+    box-shadow: 3px 3px 3px rgb(188, 176, 176);
+    border-radius: 0px;
+    border-color: none;
+    display: flex;
+    gap:2px
+}
+input[type="text"],input[type="tel"],input[type="email"]:hover {
+    cursor: pointer;
+}
+textarea {
+    box-sizing: border-box;
+    width: 400px;
+    height: 100px;
+    margin: auto;
+    gap: 2px;
+}
+
+button[type="submit"] {
+    background-color: rgb(146, 150, 204);
+    padding: 10px;
+    margin-left: 250px;
+    color: aliceblue;
+}
+
+button[type="submit"]:hover {
+    cursor: pointer;
+    background-color: rgb(4, 7, 7);
+
+}
+.contact{
+    background-color: rgb(10, 7, 21);
+    color: aliceblue;
+    padding: 50px;
+    margin-top: 20px;
+    text-align:center;
+
+}
+
+.contact a {
+    color: azure;
+    text-decoration: solid;
+}
+button[type="button"] {
+    background-color: black;
+    color: aliceblue;
+    width: 100px;
+    padding: 10px;
+    box-shadow: 2px 2px 2px rgb(136, 133, 133);
+    
+}
+button[type="button"]:hover {
+    cursor: pointer;
+    background-color: white;
+    color: black;
+}
